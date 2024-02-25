@@ -144,6 +144,7 @@ class SugangGui():
     #매크로 초기화
     def InitOrder(self):
         self.listbox.delete(0,self.listbox.size()-1)
+        self.macro_point_order.clear()
         
     #설정 버튼 동작
     def SetKeys(self):
